@@ -230,6 +230,25 @@
         font-size: 40px;
         text-transform: none;
     }
+    
+    .address{
+    font-size: 16px;
+}
+
+.mail{
+    font-size: 16px;
+    margin-left: 0px;
+}
+
+.ico{
+    font-size: 45px;
+}
+
+.add-txt{
+    padding-left: 20px;
+    margin-top: -30px;
+    
+}
 }
 
 
