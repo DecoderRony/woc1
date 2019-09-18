@@ -1,0 +1,78 @@
+#about{
+    background: url('https://i.imgur.com/6wArtVp.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+#aboutContent{
+    padding-top: 250px;
+}
+
+#aboutText{
+    padding: 55px;
+    font-family: Roboto,"Helvetica Neue",sans-serif;
+    font-size: 20px;
+    line-height: 1.8;
+    letter-spacing: 2px;
+    color: white;
+}
+
+
+.aboutLogo{
+    width: 400px;
+    height: auto;
+}
+
+#projects{
+    background-color: rgb(240,240,240);
+    
+}
+
+.projectsSection{
+    margin-top: -280px;
+}
+
+.projectsRow1{
+    padding: 50px;
+}
+
+.projectsRow{
+    padding: 30px;
+}
+
+.projectsText{
+    padding: 30px;
+     font-family: Roboto,"Helvetica Neue",sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+}
+
+.projectsSettings{
+    margin-left: -390px;
+    margin-top: -80px;
+    width: 890px;
+    height: auto;
+}
+
+.projectsHeading{
+    text-align: center;
+    color: blueviolet;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.projectLeaf{
+    text-align: right;
+}
+
+
+#leaf{
+       
+    
+    margin-top: -300px;
+    width: 750px;
+    height: auto;
+}
