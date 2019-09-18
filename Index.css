@@ -98,3 +98,10 @@
    letter-spacing: 0.8px;
    color: #8488c0;
 }
+#aboutContent h1{
+    text-align: center;
+    color: #556bff;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
