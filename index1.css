@@ -1,3 +1,4 @@
+
 #about{
     background: url('https://i.imgur.com/6wArtVp.png');
     background-repeat: no-repeat;
@@ -6,17 +7,31 @@
     width: 100%;
 }
 
+#about h1{
+    color: #4285F4;
+    text-align: center;
+    padding-top: 100px;
+    text-transform: uppercase;
+    font-family: Roboto,"Helvetica Neue",sans-serif;}
+
 #aboutContent{
-    padding-top: 250px;
+    padding-top: 20px;
+}
+
+.about-img{
+    text-align: center;
+}
+#about .row{
+    padding-top: 50px;
 }
 
 #aboutText{
-    padding: 55px;
+    padding-top: 55px;
     font-family: Roboto,"Helvetica Neue",sans-serif;
     font-size: 20px;
     line-height: 1.8;
     letter-spacing: 2px;
-    color: white;
+    color: lightgrey;
 }
 
 
@@ -26,8 +41,18 @@
 }
 
 #projects{
-    background-color: rgb(240,240,240);
+    background-color: rgb(250,250,250);
     
+    
+}
+
+#projects h1{
+    padding-top: 0px;
+    margin-top: -230px;
+}
+
+#projects .row{
+    padding-top: 50px;
 }
 
 .projectsSection{
@@ -35,44 +60,180 @@
 }
 
 .projectsRow1{
-    padding: 50px;
+    padding-top: 50px;
 }
 
 .projectsRow{
-    padding: 30px;
+    padding-top: 30px;
 }
 
-.projectsText{
-    padding: 30px;
+#project-text{
+    padding-top: 30px;
      font-family: Roboto,"Helvetica Neue",sans-serif;
     font-size: 18px;
     line-height: 1.5;
     letter-spacing: 0.8px;
+    color: #8488c0;
 }
 
-.projectsSettings{
-    margin-left: -390px;
-    margin-top: -80px;
-    width: 890px;
-    height: auto;
+#project-text-mb{
+    display: none;
 }
 
-.projectsHeading{
+
+
+#projectHeader{
     text-align: center;
-    color: blueviolet;
+    color: #4285F4!important;
     font-weight: 400;
     text-transform: uppercase;
 }
 
-.projectLeaf{
-    text-align: right;
-}
 
 
-#leaf{
-       
-    
-    margin-top: -300px;
-    width: 750px;
+#setImg{
+     margin-left: -350px;
+    margin-top: -60px;
+    width: 820px;
     height: auto;
 }
+
+.decImg{
+    text-align: end;
+}
+
+#leaf{
+    margin-top: -250px;
+    width: 700px;
+    height: auto;
+}
+
+.aboutBttn{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.abtBttn{
+    background-image: linear-gradient(90deg, #EA4335 , #4285F4);
+    border: 0;
+    border-radius: 50px;
+    padding: 15px 20px 15px 20px;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+.abtBttn a{
+    text-decoration: none;
+    color: lightgray;
+}
+
+.abtBttn a:hover{
+    color: white;
+}
+
+#contact h1{
+    color:  #4285F4;
+    text-transform: uppercase;
+}
+
+.address{
+    font-size: 22px;
+}
+
+.mail{
+    font-size: 22px;
+    margin-left: -150px;
+}
+
+.ico{
+    font-size: 45px;
+}
+
+.add-txt{
+    padding-left: 20px;
+    margin-top: -30px;
+    
+}
+
+.add-txt a{
+    text-decoration: none;
+    color: black;
+}
+
+.add-txt a:hover{
+    color: #0F9D58
+}
+
+.social-ico{
+    font-size: 18px;
+}
+
+@media (max-width:600px){
+    
+    #about{
+   
+    height: 1000px;
+    width: 100%;
+}
+    
+    #about{
+        margin-top: 300px;
+    }
+    
+    #about h1{
+        font-size: 45px;
+        text-transform: none;
+    }
+    
+    #projectHeader{
+    font-size: 50px;
+    text-align: center;
+    color: blueviolet;
+    font-weight: 350;
+    text-transform: none;
+}
+    
+#project-text{
+    padding-top: 10px;
+     font-family: Roboto,"Helvetica Neue",sans-serif;
+    font-size: 18px;
+    line-height: 1.4;
+    letter-spacing: 0.4px;
+    display: block;
+}
+    #setImg{
+        margin-left: 0px;
+        margin-top: 0px;
+       display: none;
+}
+
+#leaf{
+    margin-top: 0px;
+    display: none;
+}
+    
+    #project-text-mb{
+        display: block;
+    }
+    
+    #project-text-sm{
+        display: none;
+    }
+    
+    #projects h1{
+    padding-top: 50px;
+        margin-top: 0px;
+
+}
+    
+    #contact h1{
+        font-size: 40px;
+        text-transform: none;
+    }
+}
+
+
+
+
+
+

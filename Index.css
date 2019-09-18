@@ -45,6 +45,10 @@
 .jumbotron{
     background-color: rgba(250,250,250);
 }
+
+.home-menu{
+   margin-bottom: 100px;
+}
 .jumbotron h5{
     color: #8488c0; 
 }
@@ -58,4 +62,28 @@
 #home{
     height: 100vh;
     width: 100%;
+}
+
+.location{
+    margin-top: 30px;
+}
+
+.frame{
+    box-shadow: 2px 2px 2px #888;
+    border-radius: 20px;
+    width: 100%;
+}
+
+#contact{
+    background-color: whitesmoke;
+}
+
+#contact .container{
+    padding-top: 120px;
+    font-size: 
+}
+
+.contact-sec{
+    padding-top: 50px;
+    padding-bottom: 120px;
 }
