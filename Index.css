@@ -60,7 +60,6 @@
 }
 
 #home{
-    height: 100vh;
     width: 100%;
 }
 
@@ -76,7 +75,6 @@
 
 #contact{
     background-color: whitesmoke;
-    height: 100vh;
 }
 
 #contact .container{
@@ -107,7 +105,4 @@
     margin-top: 50px;
 }
 
-#work{
-    height: 100vh;
-}
 
