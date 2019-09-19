@@ -76,6 +76,7 @@
 
 #contact{
     background-color: whitesmoke;
+    height: 100vh;
 }
 
 #contact .container{
@@ -105,3 +106,8 @@
     text-transform: uppercase;
     margin-top: 50px;
 }
+
+#work{
+    height: 100vh;
+}
+
