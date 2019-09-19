@@ -207,6 +207,7 @@ html{
     width: 100%;
 }
     
+    
     #about{
         margin-top: 300px;
     }
@@ -214,6 +215,10 @@ html{
     #about h1{
         font-size: 45px;
         text-transform: none;
+    }
+    
+    .about-main{
+        margin-top: -200px;
     }
     
     #projectHeader{
@@ -260,6 +265,7 @@ html{
     #contact h1{
         font-size: 40px;
         text-transform: none;
+        font-weight: 350px;
     }
     
     .address{
@@ -280,6 +286,21 @@ html{
     margin-top: -30px;
     
 }
+    
+.nav-link:hover{
+      border-bottom: none;
+}
+    
+.nav-link.active{
+          border-bottom: none;
+
+}
+    
+    #work h1{
+        font-size: 40px;
+        text-transform: none;
+        
+    }
 }
 
 

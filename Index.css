@@ -47,7 +47,7 @@
 }
 
 .home-menu{
-   margin-bottom: 100px;
+   margin-bottom: 40px;
 }
 .jumbotron h5{
     color: #8488c0; 
@@ -73,6 +73,10 @@
     width: 100%;
 }
 
+#contact h1{
+    text-transform: uppercase;
+    font-weight: 350px;
+}
 
 #contact .container{
     padding-top: 120px;
@@ -87,7 +91,10 @@
     margin-top: 50px;
 }
 
-
+#work h1{
+    text-transform: uppercase;
+    font-weight: 350px;
+}
 
 .hwork{
     padding: 30px;
